@@ -20,6 +20,7 @@ int main() {
   gpio_set_dir(LEDPUR, GPIO_OUT);
   gpio_set_dir(LEDBLU, GPIO_OUT);
   gpio_set_dir(LEDYEL, GPIO_OUT);
+  gpio_set_dir(BTN_PIN, GPIO_IN);
   gpio_pull_up(BTN_PIN);
 
   
